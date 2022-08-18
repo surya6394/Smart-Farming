@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about{
+    margin-top: 6.5em;
+}
+
+#about .Social{
+    padding-bottom: 3em;
+}
+
+footer{
+    position: relative;
+    /* margin-top: 10em; */
+    top: 21.3em;
+
+}   
+
+@media(max-width: 991px){
+    footer{
+        margin-top: -19em;
+    }
+}
+
+@media(max-width: 540px){
+    footer{
+        margin-top: -25em;
+    }
+}

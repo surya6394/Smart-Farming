@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#google_translate_element{
+    /* display: flex; */
+    float: right;
+    margin-top: -1.5em;
+    padding-right: 3.5em;
+}
+
+section .heading{
+    margin-top: 6em;
+    margin-bottom: 0.5em;
+    font-size: 27px;
+    text-align: center;
+    color:  #2c3e50;
+}
+
+section .para{
+    text-align: center;
+    margin: 3em 7em 4em 5em;
+    font-size: 21px;
+    line-height: 30px;
+    color: #353b48;
+    text-shadow: 1px 1px #d476aa;
+}
+
+section iframe{
+    display: flex;
+    margin-left: 30em;
+}
+
+@media(max-width: 991px){
+    section .para{
+        margin: 2em;
+        font-size: 19px;
+        line-height: 27px;
+        padding-bottom: 1em;
+    }
+    section iframe{
+        margin-left: 10.5em;
+        padding-bottom: 2em;
+    }
+}
+
+@media(max-width: 540px){
+    section iframe{
+        margin-left: 0.3em;
+        width: 415px;
+        height: 250px;
+    }
+    section .para{
+        margin: 0.8em;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 1em;
+    }
+}
+
+.content h3{
+    font-size: 24px;
+    color: #4cd137;
+    padding-bottom: 0.6em;
+}
+
+.content p{
+    font-size: 20px;
+    color: #353b48;
+    padding-bottom: 0.6em;
+}
+
+.content ul{
+    padding: 2em;
+}
+
+.content li{
+    list-style: none;
+    color: #3d3d3d;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    /* padding: 10px; */
+}
+
+.content i{
+    color: coral;
+    padding-right: 10px;
+}
+
+.content{
+    margin: 5em 9em 4em 9em;
+}
+
+@media(max-width: 991px){
+    .content{
+        margin: 3em 5em 12em 5em;
+    }
+}
+
+
+@media(max-width: 540px){
+    .content{
+        margin: 0.5em 0.9em 16em 0.9em;
+    }
+    .content h3{
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+
+    .content ul{
+        padding: 1em;
+    }
+    
+    .content li{
+        font-size: 16px;
+        line-height: 22px;
+        /* padding: 10px; */
+    }
+    
+    .content i{
+        padding-right: 7px;
+    }
+}
+
+
+footer{
+    position: relative;
+    /* margin-top: 10em; */
+    top: 10em;
+
+}   
+
+@media(max-width: 991px){
+    footer{
+        margin-top: -19em;
+    }
+}
+
+@media(max-width: 540px){
+    footer{
+        margin-top: -25em;
+    }
+}

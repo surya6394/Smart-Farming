@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section .contact{
+    margin-bottom: 6.7em;
+}
+
+#google_translate_element{
+    margin-top: -8em;
+    padding-right: 3.5em;
+}
+
+
+
+.upcrop h1{
+    position: absolute;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+
+/* Upcrop */
+
+@media(max-width: 1125px){
+    section .contact{
+        margin-bottom: 9em;
+    }
+
+    /* .upcrop{
+        width: 86.7%;
+    } */
+}
+
+@media(max-width: 500px){
+    .upcrop{
+        margin: auto;
+        /* width: 73%; */
+        /* height: 40vh; */
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+.heading{
+    background: #d8d8d8;
+    text-align: center;
+    padding: 6em;
+}
+
+/* Cards */
+
+
+#Cards{
+    background: #d8d8d8;
+    padding-top: 7em;
+    padding-bottom: 6em;
+}
+
+#Cards a{
+    text-decoration: none;
+    color: black;
+}
+
+#Cards a .box{
+    margin-bottom: 3em;
+    position: relative;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    width: 1300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    transition: 0.5s;
+}
+
+#Cards a .box:hover{
+    border: 2px solid#E4405F;
+    box-shadow: 0px 0px 25px 0px #E4405F;
+}
+
+#Cards a .box .imgBx{
+    width: 220px;
+    flex: 0 0 280px;
+}
+
+#Cards a .box .imgBx img{
+    max-width: 100%;
+}
+
+#Cards a .box .content{
+    padding-left: 4em;
+
+}
+
+#Cards a .box .content h2{
+    margin: 0;
+    padding-left: 0;
+    color:  #2c3e50;
+    font-size: 26px;
+}
+
+#Cards a .box .content p{
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: justify;
+    text-shadow: 0.5px 1px gray;
+}
+
+
+@media(max-width: 991px){
+
+    #Cards{
+        padding-top: 12em;
+    }
+
+    #Cards a .box{
+        left: 50%;
+        width: 800px;
+    }
+
+    #Cards a .box .imgBx{
+        /* width: 300px; */
+        flex: 0 0 320px;
+    }
+
+    #Cards a .box .imgBx img{
+        padding-top: 4em;
+    }
+
+}
+
+@media(max-width: 540px){
+
+    #Cards{
+        padding-bottom: 18em;
+    }
+
+    #Cards a .box{
+        
+        left: 50%;
+        width: 300px;
+        
+    }
+
+    #Cards a .box .imgBx{
+        width: 100px;
+        flex: 0 0 260px;
+    }
+
+    #Cards a .box .content p{
+        display: none;
+        /* padding-left: -10em; */
+    }
+
+    #Cards a .box .content h2{
+        margin-left: -10.5em;
+    }
+
+    
+}
+
+footer{
+    position: relative;
+    margin-top: -10em;
+}
+
+@media(max-width: 991px){
+    footer{
+        margin-top: -19em;
+    }
+}
+
+@media(max-width: 540px){
+    footer{
+        margin-top: -25em;
+    }
+}
